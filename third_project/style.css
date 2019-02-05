@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    background: #ffc600;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.inbox {
+    margin-top: 40px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, .1);
+    max-width: 40vw;
+}
+
+.item {
+    display: flex;  
+    align-items: center;
+    border-bottom: 1px solid #F1F1F1;
+}
+
+.item:last-child {
+    border-bottom: 0;
+}
+
+input[type='checkbox'] {
+    margin: 19px 15px;
+}
+
+p {
+    margin: 0;
+    padding: 16px 10px;
+    border-left: 1px solid #F1F1F1;
+}
